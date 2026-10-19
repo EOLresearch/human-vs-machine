@@ -1,0 +1,21 @@
+# Participant data and model outputs -- never commit
+*.csv
+*.xlsx
+*.jsonl
+mlflow.db
+mlruns/
+*.db
+
+# Secrets
+.env
+.streamlit/secrets.toml
+**/.streamlit/secrets.toml
+.aws/
+
+# Python / OS
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
