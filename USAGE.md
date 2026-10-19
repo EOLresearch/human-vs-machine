@@ -47,7 +47,8 @@ If you see your account/role, you're in.
 ## 3. Set up Python (one time)
 
 ```bash
-cd Bedrock-Journal-Analysis
+git clone https://github.com/EOLresearch/human-vs-machine.git
+cd human-vs-machine
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
